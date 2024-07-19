@@ -1,0 +1,208 @@
+QMainWindow {
+    background-image: url(img/fon.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+QDockWidget {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+}
+
+QListWidget {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+QTabWidget::pane {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+}
+
+QTabBar::tab {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos de botones con fondo gris transparente y bordes redondeados */
+QPushButton#boton_repetir {
+    background-color: rgba(128, 128, 128, 150); /* Gris transparente */
+    border: none; /* Remover cualquier borde existente */
+    border-radius: 25px; /* Bordes redondeados */
+    image: url('img/repetir.png'); /* Imagen del botón */
+    padding: 7px; /* Relleno */
+}
+
+QPushButton#boton_retroceder {
+    background-color: rgba(128, 128, 128, 150); /* Gris transparente */
+    border: none; /* Remover cualquier borde existente */
+    border-radius: 25px; /* Bordes redondeados */
+    image: url('img/retroceder.png'); /* Imagen del botón */
+    padding: 7px; /* Relleno */
+}
+
+QPushButton#boton_play {
+    background-color: rgba(128, 128, 128, 150); /* Gris transparente */
+    border: none; /* Remover cualquier borde existente */
+    border-radius: 25px; /* Bordes redondeados */
+    image: url('img/play.png'); /* Imagen del botón */
+    padding: 7px; /* Relleno */
+}
+
+QPushButton#boton_avanzar {
+    background-color: rgba(128, 128, 128, 150); /* Gris transparente */
+    border: none; /* Remover cualquier borde existente */
+    border-radius: 25px; /* Bordes redondeados */
+    image: url('img/avanzar.png'); /* Imagen del botón */
+    padding: 7px; /* Relleno */
+}
+
+QPushButton#boton_aleatorio {
+    background-color: rgba(128, 128, 128, 150); /* Gris transparente */
+    border: none; /* Remover cualquier borde existente */
+    border-radius: 25px; /* Bordes redondeados */
+    image: url('img/repetir.png'); /* Imagen del botón */
+    padding: 7px; /* Relleno */
+}
+
+/* Efecto visual al presionar los botones */
+QPushButton#boton_repetir:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_retroceder:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_retroceder_a:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_play:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_pausa:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_avanzar:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QPushButton#boton_aleatorio:pressed {
+    background-color: rgba(128, 128, 128, 200); /* Cambia la transparencia para indicar el clic */
+}
+
+QStatusBar {
+    background-color: rgba(78, 78, 78, 255);
+    color: white;
+    font-weight: bold;
+}
+
+QMenuBar {
+    background-color: rgba(29, 29, 29, 255);
+    color: white;
+    font-weight: bold;
+}
+
+QMenuBar::item {
+    background-color: rgba(29, 29, 29, 255);
+    color: white;
+    font-weight: bold;
+}
+
+QMenu {
+    background-color: rgba(29, 29, 29, 255);
+    color: white;
+    font-weight: bold;
+}
+
+QMenu::item:selected {
+    background-color: rgba(78, 78, 78, 255);
+}
+
+QMenu::item:pressed {
+    background-color: gray;
+}
+
+QMenuBar::item:pressed {
+    background-color: gray;
+}
+
+QTabWidget::pane::pressed {
+    background-color: gray;
+}
+
+QTabBar::tab::pressed {
+    background-color: gray;
+}
+
+/* Barra de progreso moderna */
+QSlider::groove:horizontal {
+    border: 1px solid #999;
+    background: #444;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #3b5998;
+    border: 1px solid #555;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::add-page:horizontal {
+    background: #777;
+    border: 1px solid #999;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal {
+    background: #ffcc00;
+    border: 1px solid #999;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 10px;
+}
+
+/* Estilo  barra de volumen */
+QSlider::groove:vertical {
+    border: 1px solid #999;
+    background: #444;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QSlider::sub-page:vertical {
+    background: #3b5998;
+    border: 1px solid #555;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QSlider::add-page:vertical {
+    background: #777;
+    border: 1px solid #999;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle:vertical {
+    background: #ffcc00;
+    border: 1px solid #999;
+    width: 20px;
+    height: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 10px;
+}
+
